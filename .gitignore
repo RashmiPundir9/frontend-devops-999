@@ -1,7 +1,4 @@
-terraform.tfstate
-terraform.tfstate.d/
-.terraform/
-node_modules/# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -24,3 +21,18 @@ node_modules/# See https://help.github.com/articles/ignoring-files/ for more abo
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules/
+build/
+.env
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfstate.d/
+
+# Backup folders
+backup_terraform/
