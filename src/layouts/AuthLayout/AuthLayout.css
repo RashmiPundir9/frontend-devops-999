@@ -1,0 +1,81 @@
+.auth-layout {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.auth-content {
+  display: flex;
+}
+
+/* LEFT SIDE */
+
+.auth-left {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 120px;
+}
+
+/* RIGHT PANEL */
+
+.auth-right {
+  width: 40%;
+  margin: 16px;
+  border-radius: var(--border-radius-xl);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg,
+      var(--color-primary) 0%,
+      var(--color-primary-strong) 61.54%,
+      var(--color-primary-soft) 123.07%);
+}
+
+/* FOOD IMAGES */
+
+.food-top {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 140px;
+}
+
+.food-right {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  width: 160px;
+}
+
+.food-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 170px;
+}
+
+/* CENTER CONTENT */
+
+.auth-brand {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 64px;
+}
+
+.auth-title {
+  color: #fff !important;
+  margin: 0 !important;
+}
+
+.auth-subtitle {
+  color: #eafff5;
+  font-size: 16px;
+}
+
+.auth-logo {
+  width: 216px;
+  margin-bottom: 12px;
+}

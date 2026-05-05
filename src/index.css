@@ -1,0 +1,52 @@
+:root {
+  /* Fallback values; real tokens are injected from theme.json at runtime */
+  --color-primary: #a86c2f;
+  --color-primary-strong: #8f5a22;
+  --color-primary-soft: #d7b287;
+
+  --color-bg-page: #f5f7fa;
+  --color-bg-card: #ffffff;
+  --color-border-subtle: #f0f0f0;
+
+  --border-radius-lg: 12px;
+  --border-radius-xl: 28px;
+
+  --font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* future: dark theme skeleton */
+:root[data-theme="dark"] {
+  --color-primary: #00c183;
+  --color-primary-strong: #00a56d;
+  --color-primary-soft: #064e3b;
+
+  --color-bg-page: #020617;
+  --color-bg-card: #0f172a;
+  --color-border-subtle: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: var(
+    --font-family-base,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif
+  );
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

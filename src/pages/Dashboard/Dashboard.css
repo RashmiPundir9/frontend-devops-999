@@ -1,0 +1,75 @@
+.dashboard-container {
+  background: #f5f7fa;
+  padding: 24px;
+  /* min-height: 100vh; */
+}
+
+/* Section */
+.dashboard-section {
+  margin-bottom: 48px;
+}
+
+/* Section header */
+.dashboard-section-header {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.dashboard-section-indicator {
+  width: 8px;
+  height: 24px;
+  background: var(--color-primary);
+}
+
+.dashboard-section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #262626;
+}
+
+/* Card */
+.dashboard-stat-card {
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+
+/* Title */
+.dashboard-stat-title {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 12px;
+}
+
+/* Bottom row */
+.dashboard-stat-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Value */
+.dashboard-stat-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #262626;
+}
+
+/* Change indicator */
+.dashboard-stat-change {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dashboard-stat-change.up {
+  color: #10b981;
+}
+
+.dashboard-stat-change.down {
+  color: #ef4444;
+}
