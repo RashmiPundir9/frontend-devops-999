@@ -32,7 +32,7 @@ jobs:
           aws-region: ap-south-1
 
       - name: Upload Build Files to S3
-        run: aws s3 sync build/ s3://myappprod-999 --delete
+        run: aws s3 sync build/ s3://myappdev-999 --delete
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id E3RTC1L8BJ9LJR --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E221H6FOHO2HRC --paths "/*"
